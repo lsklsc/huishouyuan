@@ -1,0 +1,119 @@
+{
+	"easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	},
+	"pages": [ //pages数组中第一项表示应用启动页,
+		{
+			"path": "pages/reg/reg",
+			"style": {
+				"navigationBarBackgroundColor": "#FFFFFF",
+				"navigationBarTextStyle": "black",
+				// "navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTitleText": "登录"
+			}
+		},
+
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				// "navigationBarTitleText": "首页",
+				// "navigationStyle": "default",
+				"navigationBarTextStyle": "white",
+				"navigationBarBackgroundColor": "#00CC7B"
+			}
+		},
+		
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationBarTextStyle": "black",
+				"navigationBarBackgroundColor": "#fff"
+			}
+		},
+
+		{
+			"path": "pages/userInfo/userInfo1",
+			"style": {
+				"navigationBarTitleText": "个人信息"
+			}
+		},
+		{
+			"path": "pages/update/info",
+			"style": {
+				"navigationBarTitleText": "修改个人信息"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "个人中心"
+			}
+		},
+		{
+			"path": "pages/task-detail/task-detail",
+			"style": {
+				// "navigationBarTitleText": "任务详情",
+				"navigationStyle": "custom"// 隐藏系统导航栏
+			}
+		},
+		{
+			"path": "pages/record/record-detail",
+			"style": {
+				"navigationBarTitleText": "订单详情"
+			}
+		},
+		{
+			"path": "pages/mytask/mytask",
+			"style": {
+				"navigationStyle": "custom", // 隐藏系统导航栏
+				"navigationBarTitleText": "我的任务"
+			}
+		}, {
+			"path": "pages/mytask/mytaskChild/menus"
+		},
+		{
+			"path": "pages/mytask/mytaskChild/taskList"
+		}, {
+			"path": "pages/record/record",
+			"style": {
+				"navigationBarTitleText": "历史记录",
+				"enablePullDownRefresh": false
+			}
+
+		}, 
+		{
+			"path": "pages/task-detail/task-complete",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": false
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarBackgroundColor": "#00CC7B",
+		"backgroundColor": "#fbf9fe"
+	}
+	//底部tabBar
+	// ,"tabBar": {
+	// 	"color": "#7a7e83",
+	// 	"selectedColor": "#00D480",
+	// 	"backgroundColor": "#ffffff",
+	// 	"list": [{
+	// 			"pagePath": "pages/home/home",
+	// 			"text": "首页",
+	// 			"iconPath": "static/img/home.png",
+	// 			"selectedIconPath": "static/img/homeHL.png"
+	// 		},
+	// 		{
+	// 			"pagePath": "pages/user/users",
+	// 			"text": "我的",
+	// 			"iconPath": "static/img/user.png",
+	// 			"selectedIconPath": "static/img/userHL.png"
+	// 		}
+	// 	]
+	// }
+}
